@@ -2,10 +2,10 @@
   "ProjectName": "OAuth",
   "ProjectGuid": "a0c83f97-74d8-4b43-af9b-4316060e7d48",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.OAuth",
+  "AppIdentifier": "com.telerik.plugindemo.oauth",
   "DisplayName": "OAuth",
-  "Author": "",
-  "Description": "",
+  "Author": "Telerik",
+  "Description": "OAuth",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -41,5 +41,13 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar",
+    "org.apache.cordova.vibration"
   ]
 }
