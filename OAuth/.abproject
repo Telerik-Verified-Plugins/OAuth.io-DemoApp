@@ -43,6 +43,7 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
+    "com.oauthio.plugins.oauthio@0.2.6",
     "cordova-plugin-console",
     "cordova-plugin-crosswalk-webview@1.2.0",
     "cordova-plugin-device",
